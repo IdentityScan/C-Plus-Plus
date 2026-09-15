@@ -5,7 +5,7 @@
 // @author (Sahel_Cavalieri)
 // @date 09:33 09/15/2026
 // #brief Each Data Type, Information and Size in Bytes
-// Information about total Lines:  17
+// Information about total Lines:  61
 // Version: 1.0
 // Website: https://mundopauta.com.br/ (Portuguese, Brazil)
 
