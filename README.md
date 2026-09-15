@@ -1,3 +1,7 @@
+Aviso!
+
+Apesar do repositório ser mantido por um desenvolvedor brasileiro. Os códigos, comentários, variáveis e estruturas estão todos em inglês. O uso desta linguagem visa integrar a uniformidade da língua mais usada de um modo geral em todo o repositório do Github.
+
 # C++
 
 Este repositório reúne estudos, exercícios, exemplos e implementações desenvolvidas em **C++**, com foco no aprendizado progressivo da linguagem e na aplicação de boas práticas acadêmicas de programação.
