@@ -1,5 +1,5 @@
 #include <iostream>
-#include<string> // It's need for use methoad isdigit()
+#include<cctype> // It's need for use methoad isdigit()
 
 // @author (Sahel_Cavalieri)
 // @date 10:03 09/15/2026
