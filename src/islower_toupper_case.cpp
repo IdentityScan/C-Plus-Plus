@@ -1,5 +1,5 @@
 #include <iostream>
-#include<string>
+#include<cctype>
 
 // @author (Sahel_Cavalieri)
 // @date 09:17 09/15/2026
