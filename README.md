@@ -1,5 +1,7 @@
 # Java — Repositório Educacional
 
+Nota: Wiki e esse **Readme** estão escritos em português (Brasil). No entanto todos os códigos estão com variáveis, nomes e output. comentários em **inglês**
+
 Este repositório possui **caráter exclusivamente educacional** e foi criado com o objetivo de reunir exemplos, exercícios, testes e projetos desenvolvidos em **Java**.
 
 O conteúdo é voltado ao estudo da linguagem, de sua sintaxe, bibliotecas, orientação a objetos, organização de projetos e utilização prática do ecossistema Java.
