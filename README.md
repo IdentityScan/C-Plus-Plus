@@ -1,79 +1,254 @@
-Aviso!
+# Java — Repositório Educacional
 
-Apesar do repositório ser mantido por um desenvolvedor brasileiro. Os códigos, comentários, variáveis e estruturas estão todos em inglês. O uso desta linguagem visa integrar a uniformidade da língua mais usada de um modo geral em todo o repositório do Github.
+Este repositório possui **caráter exclusivamente educacional** e foi criado com o objetivo de reunir exemplos, exercícios, testes e projetos desenvolvidos em **Java**.
 
-# C++
-
-Este repositório reúne estudos, exercícios, exemplos e implementações desenvolvidas em **C++**, com foco no aprendizado progressivo da linguagem e na aplicação de boas práticas acadêmicas de programação.
-
-O objetivo é registrar a evolução dos estudos, explorar diferentes recursos da linguagem e manter uma base organizada de códigos que possa servir como material de consulta, experimentação e desenvolvimento acadêmico.
-
-## Sobre o C++
-
-O C++ teve seu desenvolvimento iniciado por **Bjarne Stroustrup em 1979**, inicialmente como uma extensão da linguagem C chamada *C with Classes*. O nome **C++** passou a ser utilizado em 1983, e a primeira versão comercial da linguagem foi disponibilizada em 1985.
-
-A linguagem manteve grande parte da eficiência e do controle de baixo nível do C, acrescentando recursos como orientação a objetos, sobrecarga de funções e operadores, templates, exceções, programação genérica e, posteriormente, diversos mecanismos modernos de gerenciamento de recursos e abstração.
-
-Essa combinação fez com que o C++ se tornasse uma das principais linguagens utilizadas no desenvolvimento de sistemas que exigem alto desempenho, controle de memória e proximidade com o hardware.
-
-Entre projetos e tecnologias amplamente desenvolvidos com uso significativo de C++ estão:
-
-* Microsoft Windows e diversos de seus componentes;
-* Chromium, base do Google Chrome e de outros navegadores;
-* Mozilla Firefox;
-* Unreal Engine;
-* LLVM e Clang;
-* MySQL;
-* softwares gráficos, ferramentas de engenharia e aplicações de alto desempenho;
-* motores de jogos, sistemas embarcados e aplicações científicas.
-
-## Propósito do repositório
-
-O conteúdo deste repositório possui finalidade essencialmente **acadêmica e educacional**.
-
-Os exemplos procuram abordar conceitos fundamentais e progressivamente mais avançados da linguagem, incluindo:
-
-* sintaxe e estruturas básicas;
-* entrada e saída de dados;
-* estruturas condicionais e de repetição;
-* arrays, strings e ponteiros;
-* funções;
-* estruturas e classes;
-* orientação a objetos;
-* gerenciamento de memória;
-* Standard Template Library (STL);
-* algoritmos;
-* organização de código;
-* arquivos de cabeçalho;
-* modularização;
-* boas práticas de programação.
-
-Os códigos podem apresentar diferentes formas de resolver um mesmo problema, inclusive soluções propositalmente simples, destinadas à demonstração de determinado conceito.
-
-## Boas práticas acadêmicas
-
-Além do aprendizado da sintaxe, este repositório busca incentivar práticas importantes durante a formação em programação, como:
-
-* utilização de nomes claros para arquivos, funções e variáveis;
-* organização lógica do código;
-* separação de responsabilidades;
-* legibilidade;
-* reutilização de componentes;
-* compreensão do funcionamento do programa antes da adoção de abstrações;
-* utilização consciente dos recursos oferecidos pela linguagem;
-* evolução gradual da complexidade dos exemplos.
-
-O objetivo não é apenas produzir códigos que compilem, mas compreender **como e por que cada recurso funciona**.
-
-## Incentivo acadêmico
-
-Este material é disponibilizado como incentivo ao estudo da programação e da Ciência da Computação.
-
-Os códigos podem ser utilizados como referência para estudos, exercícios, testes e experimentações acadêmicas. Recomenda-se que estudantes analisem cada implementação, realizem modificações e desenvolvam suas próprias soluções, em vez de simplesmente reproduzir os exemplos.
-
-A programação é melhor compreendida por meio da prática, da análise dos erros e da construção progressiva do conhecimento.
+O conteúdo é voltado ao estudo da linguagem, de sua sintaxe, bibliotecas, orientação a objetos, organização de projetos e utilização prática do ecossistema Java.
 
 ---
 
-**Linguagem principal:** C++
-**Finalidade:** estudo, prática e desenvolvimento acadêmico.
+## Sobre o Java
+
+Java é uma linguagem de programação de propósito geral, fortemente tipada e orientada a objetos.
+
+Seu desenvolvimento começou no início da década de 1990 na **Sun Microsystems**, tendo **James Gosling** como um de seus principais criadores.
+
+O projeto inicialmente utilizava o nome **Oak** e fazia parte de uma iniciativa voltada ao desenvolvimento de software para dispositivos eletrônicos.
+
+Em **1995**, a linguagem foi oficialmente apresentada como **Java**.
+
+Com o tempo, tornou-se uma das linguagens mais utilizadas no desenvolvimento de aplicações corporativas, sistemas web, aplicações desktop, servidores, ferramentas de infraestrutura e diversos outros tipos de software.
+
+---
+
+## Propósito do Java
+
+Um dos principais objetivos do Java foi permitir que programas pudessem ser executados em diferentes sistemas operacionais sem que fosse necessário recompilar o código especificamente para cada plataforma.
+
+Esse conceito ficou conhecido pela expressão:
+
+> **Write Once, Run Anywhere — WORA**
+
+O código-fonte Java é normalmente compilado para **bytecode**, que posteriormente é executado pela **Java Virtual Machine — JVM**.
+
+Fluxo básico:
+
+```text
+Código Java (.java)
+        ↓
+      javac
+        ↓
+Bytecode (.class)
+        ↓
+       JVM
+        ↓
+Sistema Operacional
+```
+
+A JVM funciona como uma camada intermediária entre o programa e o sistema operacional.
+
+---
+
+## Objetivos deste repositório
+
+Este repositório poderá conter materiais relacionados a:
+
+* Sintaxe da linguagem Java;
+* Tipos primitivos;
+* Variáveis e constantes;
+* Operadores;
+* Estruturas condicionais;
+* Estruturas de repetição;
+* Métodos;
+* Arrays;
+* Strings;
+* Classes e objetos;
+* Encapsulamento;
+* Herança;
+* Polimorfismo;
+* Interfaces;
+* Classes abstratas;
+* Exceptions;
+* Collections;
+* Generics;
+* Packages;
+* Manipulação de arquivos;
+* Entrada e saída de dados;
+* Threads;
+* Concorrência;
+* Recursos da biblioteca padrão;
+* Compilação por linha de comando;
+* Utilização do OpenJDK;
+* Criação e utilização de arquivos `.jar`;
+* Desenvolvimento de pequenos projetos acadêmicos.
+
+---
+
+## Compilação
+
+Um arquivo Java pode ser compilado diretamente pelo console utilizando:
+
+```bash
+javac Programa.java
+```
+
+O compilador gera o respectivo bytecode:
+
+```text
+Programa.class
+```
+
+---
+
+## Execução
+
+Para executar:
+
+```bash
+java Programa
+```
+
+---
+
+## Packages
+
+Para compilar respeitando a estrutura de packages:
+
+```bash
+javac -d . Programa.java
+```
+
+Também é possível definir outro diretório de destino:
+
+```bash
+javac -d bin Programa.java
+```
+
+---
+
+## Arquivos JAR
+
+Arquivos `.jar` permitem agrupar classes, recursos e outros arquivos relacionados a uma aplicação Java.
+
+Exemplo de criação de um JAR:
+
+```bash
+jar cf programa.jar *.class
+```
+
+Para um JAR executável:
+
+```bash
+jar cfe programa.jar Main *.class
+```
+
+Execução:
+
+```bash
+java -jar programa.jar
+```
+
+---
+
+## Bibliotecas externas
+
+Bibliotecas Java também podem ser utilizadas diretamente através de arquivos `.jar`.
+
+Exemplo de compilação:
+
+```bash
+javac -cp "biblioteca.jar" Programa.java
+```
+
+No Windows:
+
+```bash
+java -cp ".;biblioteca.jar" Programa
+```
+
+Em Linux e macOS:
+
+```bash
+java -cp ".:biblioteca.jar" Programa
+```
+
+---
+
+## OpenJDK
+
+Os exemplos deste repositório podem ser desenvolvidos utilizando o **OpenJDK**, implementação aberta da plataforma Java.
+
+O OpenJDK disponibiliza as principais ferramentas utilizadas durante o desenvolvimento, incluindo:
+
+```text
+java
+javac
+jar
+javap
+javadoc
+jshell
+jdb
+```
+
+---
+
+## Estrutura sugerida
+
+Uma organização possível para os projetos deste repositório:
+
+```text
+Java/
+│
+├── fundamentos/
+├── condicionais/
+├── repeticao/
+├── arrays/
+├── strings/
+├── metodos/
+├── classes/
+├── heranca/
+├── interfaces/
+├── exceptions/
+├── collections/
+├── generics/
+├── arquivos/
+├── threads/
+├── packages/
+├── bibliotecas/
+└── projetos/
+```
+
+Cada diretório poderá conter exemplos independentes destinados ao estudo de determinado recurso da linguagem.
+
+---
+
+## Finalidade acadêmica
+
+Este projeto não pretende substituir a documentação oficial da linguagem Java.
+
+Seu objetivo é funcionar como:
+
+* material de estudo;
+* repositório de exemplos;
+* laboratório de programação;
+* registro de experimentos;
+* referência acadêmica;
+* ambiente para aperfeiçoamento técnico.
+
+Os códigos poderão apresentar diferentes abordagens para um mesmo problema com o objetivo de demonstrar características específicas da linguagem.
+
+---
+
+## Referências
+
+* OpenJDK
+* Java Language Specification
+* Java Virtual Machine Specification
+* Documentação oficial da plataforma Java
+
+---
+
+## Licença e utilização
+
+Os exemplos produzidos especificamente para este repositório destinam-se ao estudo, pesquisa e desenvolvimento acadêmico.
+
+Eventuais bibliotecas externas utilizadas permanecem submetidas às respectivas licenças de seus autores e mantenedores.
